@@ -1,1 +1,97 @@
 /* Styles for the Advanced Markup assignment. */
+header {
+	background-color: #B5D6B5;
+	border: .4rem solid black;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	padding-left: 2rem;
+	letter-spacing: .5rem;
+}
+h1 {
+	font-size: 3rem;
+	text-shadow: 5px 5px 5px #FFF, 5px 5px 0 #E9FFE9;
+}
+h2 {
+	margin-bottom: .8rem;
+	letter-spacing: .4rem;
+}
+body {
+	background-color: #E9FFE9;
+	margin-left: 10rem;
+	margin-right: 10rem;
+}
+nav ul li {
+	display: inline;
+}
+ul {
+	padding-left: 0;
+}
+.active {
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+}
+a:link {
+    color: #CC7A7A
+}
+a:visited {
+    color: #7A4949;
+}
+a:hover {
+	text-shadow: 5px 5px 5px #FFF, 5px 5px 0 #E9FFE9;
+}
+ul li {
+	list-style-type: none;
+}
+#sidebar {
+	float: right;
+	width: 14rem;
+	background-color: #B5D6B5;
+	padding: 1rem;
+	border: .4rem solid black;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	margin-left: 1rem;
+}
+.social-links {
+	text-align: center;
+	letter-spacing: .5rem;
+}
+#content {
+	font-size: 1.2rem;
+}
+footer {
+	clear: both;
+	background-color: #B5D6B5;
+	border: .4rem solid black;
+	padding: 1rem;
+	padding-left: 2rem;
+	margin-top: 4rem;
+}
+table {
+	text-align: left;
+}
+.poem {
+	font-size: 1.3rem;
+	font-family: Lucida Console, "Courier New", Courier;
+	margin-top: 4rem;
+	line-height: 3rem;
+	padding-left: 4rem;
+}
+.bio-photo {
+	float: left;
+	padding: 1rem;
+	background-color: #B5D6B5;
+	border: .4rem solid black;
+	margin-top: 0;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	font-size: .9rem;
+	text-align: center;
+}
+.bottom-nav {
+	letter-spacing: 1rem;
+	word-spacing: 2rem;
+	text-align: center;
+}
